@@ -1,42 +1,56 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://danielmelar.com/'
+languageCode = 'pt-br'
 title = 'Daniel Melo Aguilar'
 theme = 'archie'
 
+paginate = 2
+
 [params]
 mode = 'auto'
+mainSections = ["posts", "projects"]
 
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/athul/archie"
+url = "https://github.com/danielmelar"
 
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://twitter.com/athulcajay/"
+url = "https://twitter.com/danielmelar/"
 
 [[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/athul/"
+name = "Linkedin"
+icon = "linkedin"
+url = "https://linkedin.com/in/danielmeloaguilar"
 
 [[menu.main]]
-name = "Home"
+name = "Início"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
+name = "Publicações"
 url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "About"
-url = "/about"
+name = "Notas"
+url = "/posts/notes"
 weight = 3
+
+[[menu.main]]
+name = "Projetos"
+url = "/projects"
+weight = 4
+
+[[menu.main]]
+name = "Sobre"
+url = "/about"
+weight = 5
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 4
+weight = 6
+
