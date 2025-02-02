@@ -1,6 +1,6 @@
 <head lang="{{ .Site.Language.Lang }}">
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta https-equiv="X-UA-Compatible" content="IE=edge">
 	{{- $title := ( .Title ) -}}
 	{{- $siteTitle := ( .Site.Title ) -}}
 	{{- if .IsHome -}}
@@ -107,7 +107,7 @@
 		{{ end }}
 	{{- end -}}
 	{{- range .Site.Params.customJS }}
-	{{- if or (hasPrefix . "http://") (hasPrefix . "https://") }}
+	{{- if or (hasPrefix . "https://") (hasPrefix . "https://") }}
 	<script src="{{ . }}"></script>
 	{{- else if (hasPrefix . "<script")}}
     {{ .| safeHTML }}

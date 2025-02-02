@@ -153,8 +153,8 @@
 .si-aib.si--color::before { color: #7F2B7B; }
 .si-aidungeon::before { content: "\ea48"; }
 .si-aidungeon.si--color::before { color: #000000; }
-.si-aiohttp::before { content: "\ea49"; }
-.si-aiohttp.si--color::before { color: #2C5BB4; }
+.si-aiohttps::before { content: "\ea49"; }
+.si-aiohttps.si--color::before { color: #2C5BB4; }
 .si-aiqfome::before { content: "\ea4a"; }
 .si-aiqfome.si--color::before { color: #7A1FA2; }
 .si-airasia::before { content: "\ea4b"; }
@@ -2553,8 +2553,8 @@
 .si-htmx.si--color::before { color: #3366CC; }
 .si-htop::before { content: "\eef8"; }
 .si-htop.si--color::before { color: #009020; }
-.si-httpie::before { content: "\eef9"; }
-.si-httpie.si--color::before { color: #73DC8C; }
+.si-httpsie::before { content: "\eef9"; }
+.si-httpsie.si--color::before { color: #73DC8C; }
 .si-huawei::before { content: "\eefa"; }
 .si-huawei.si--color::before { color: #FF0000; }
 .si-hubspot::before { content: "\eefb"; }
