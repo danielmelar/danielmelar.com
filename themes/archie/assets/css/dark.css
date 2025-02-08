@@ -34,7 +34,7 @@ blockquote {
   border-color: blue;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -65,7 +65,7 @@ h5::before {
 h6::before {
   color: var(--darkMaincolor);
   content: "###### ";
-}
+} */
 
 .toc {
   background-color: #272822;

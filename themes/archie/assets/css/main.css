@@ -8,7 +8,7 @@
 }
 html {
   color: #232333;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 15px;
   line-height: 1.6em;
 }
@@ -60,8 +60,9 @@ ul {
 ul li {
   text-indent: -2ch;
 }
+/* inserir caractere antes de item da lista -> content: ''*/
 ul > li::before {
-  content: '* ';
+  content: '';
   font-weight: bold;
 }
 
@@ -147,14 +148,15 @@ header .main {
 h1, h2, h3, h4, h5, h6 {
   font-size: 1.2rem;
   margin-top: 2em;
+  margin-inline: inherit;
 }
 
-h1::before { color: var(--maincolor); content: '# '; }
+/* h1::before { color: var(--maincolor); content: '# '; }
 h2::before { color: var(--maincolor); content: '## '; }
 h3::before { color: var(--maincolor); content: '### '; }
 h4::before { color: var(--maincolor); content: '#### '; }
 h5::before { color: var(--maincolor); content: '##### '; }
-h6::before { color: var(--maincolor); content: '###### '; }
+h6::before { color: var(--maincolor); content: '###### '; } */
 
 .meta {
   color: #999;
@@ -232,7 +234,7 @@ article .title {
 }
 
 .callout p {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Fira Sans', sans-serif;
   margin: 0;
 }
 

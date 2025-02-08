@@ -25,10 +25,9 @@
 							<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 							<time>{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
 							<br>{{ template "partials/pagedescription.html" . }}
-							<ul>
+							<!-- <ul>
 								<a class="readmore" href="{{ .RelPermalink }}">Ler mais ⟶</a>
-							</ul>
-							<br>
+							</ul> -->
 						</section>
 						{{ end }}
 					</ul>
@@ -42,9 +41,9 @@
 							<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 							<time>{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
 							<br>{{ template "partials/pagedescription.html" . }}
-							<ul>
+							<!-- <ul>
 								<a class="readmore" href="{{ .RelPermalink }}">Ler mais ⟶</a>
-							</ul>
+							</ul> -->
 							<br>
 						</section>
 						{{ end }}
