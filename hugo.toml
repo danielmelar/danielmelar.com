@@ -3,10 +3,10 @@ languageCode = 'pt-br'
 title = 'Daniel Melo Aguilar'
 theme = 'archie'
 
-paginate = 2
+paginate = 3
 
 [params]
-mode = 'light'
+mode = 'auto'
 mainSections = ["posts", "projects"]
 
 [[params.social]]
