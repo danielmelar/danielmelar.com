@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ if isset .Data "Term" }}
-<h1>Entries tagged - "{{ .Data.Term }}"</h1>
+<h1>Tags e Tópicos - "{{ .Data.Term }}"</h1>
 {{ else if eq .Page.Title "Projetos"}}
 <h1 class="page-title">Projetos</h1>
 {{ else if eq .Page.Title "Notas"}}
@@ -14,12 +14,12 @@
 		<a href="/posts/notes">Notas</a>
 	{{ end }} -->
 	{{- range .Data.Pages -}}
-		{{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
+		<!-- {{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}} -->
 		<li class="post">
 			<a href="{{ .RelPermalink }}">{{.Title}}</a> <span class="meta">{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</span>
 			<br>{{ template "partials/pagedescription.html" . }}
 		</li>
-		{{- end -}}
+		<!-- {{- end -}} -->
 	{{- end -}}
 </ul>
 {{ end }}

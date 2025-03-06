@@ -1,6 +1,4 @@
 +++
-title = 'Texto de Início'
+title = ''
 +++
-
-# Olá, How you doing?
 

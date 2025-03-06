@@ -1,16 +1,14 @@
-baseURL = 'https://danielmelar.com/'
+baseUrl = 'http://192.168.1.100:1313'
 languageCode = 'pt-br'
 title = 'Daniel Melo Aguilar'
 theme = 'archie'
 
-paginate = 3
-
 [params]
-mode = 'auto'
+mode = 'light'
 mainSections = ["posts", "projects"]
 
 [[params.social]]
-name = "GitHub"
+name = "GitHub" 
 icon = "github"
 url = "https://github.com/danielmelar"
 
@@ -35,11 +33,6 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Notas"
-url = "/posts/notes"
-weight = 3
-
-[[menu.main]]
 name = "Projetos"
 url = "/projects"
 weight = 4
@@ -50,6 +43,6 @@ url = "/about"
 weight = 5
 
 [[menu.main]]
-name = "Tags"
+name = "Tags e Tópicos"
 url = "/tags"
 weight = 6

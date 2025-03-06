@@ -20,15 +20,19 @@
 				<div>
 					<h1>Últimas Publicações</h1>
 					<ul>
-						{{ range where .Site.RegularPages "Section" "in" (slice "posts") }}
-						<section class="list-item">
-							<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-							<time>{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-							<br>{{ template "partials/pagedescription.html" . }}
-							<!-- <ul>
-								<a class="readmore" href="{{ .RelPermalink }}">Ler mais ⟶</a>
-							</ul> -->
-						</section>
+						{{ $counter := 0 }}
+						{{ range where .Site.RegularPages "Section" "in" (slice "posts")}}
+						{{ $counter = add $counter 1}}
+							{{ if eq $counter 1 2 3 4 5}}
+								<section class="list-item">
+									<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+									<time>{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+									<br>{{ template "partials/pagedescription.html" . }}
+									<ul>
+										<a class="readmore" href="{{ .RelPermalink }}">Ler mais ⟶</a>
+									</ul>
+								</section>
+							{{ end }}
 						{{ end }}
 					</ul>
 				</div>
@@ -41,10 +45,6 @@
 							<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 							<time>{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
 							<br>{{ template "partials/pagedescription.html" . }}
-							<!-- <ul>
-								<a class="readmore" href="{{ .RelPermalink }}">Ler mais ⟶</a>
-							</ul> -->
-							<br>
 						</section>
 						{{ end }}
 					</ul>
