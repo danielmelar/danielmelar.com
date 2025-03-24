@@ -53,18 +53,18 @@ a:hover {
     color: #fff;
 }
 
-ul {
+/* ul {
   list-style: none;
   padding-left: 2ch;
 }
 ul li {
   text-indent: -2ch;
-}
+} */
 /* inserir caractere antes de item da lista -> content: ''*/
-ul > li::before {
-  content: '';
+/* ul > li::before {
+  content: '· ';
   font-weight: bold;
-}
+} */
 
 /* Images */
 img {
