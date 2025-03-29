@@ -2,7 +2,7 @@
 date = '2025-03-28T04:34:06-03:00'
 draft = false
 title = 'Interfaces E Classes Abstratas'
-tags = ['cheatsheet', 'POO', 'C#']
+tags = ['cheatsheet', 'POO', 'CSharp']
 +++
 
 # Interfaces
