@@ -4,7 +4,7 @@ date = '2025-01-24'
 +++
 
 # Olá (emoji de saudação)
-Me chamo Daniel, tenho 21 anos e trabalho com programação desde 2022. Hoje trabalho como backend, com .NET e C#, principalmente. Sei que não é saudável, mas varar noites aprendendo algo novo é viciante. 
+Me chamo Daniel, tenho 21 anos e trabalho com programação desde 2022. Hoje trabalho como backend, com .NET e C#, mas me aventuro também React. 
 
 Sempre flertei muito com empreendedorismo, e, apesar de não ter nenhum empresa(ainda), ando estudando como as coisas funcionam nesse mundo. Por enquanto, apenas tento gerar impacto para a comunidade.
 
