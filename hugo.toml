@@ -3,6 +3,14 @@ languageCode = 'pt-br'
 title = 'Daniel Melo Aguilar'
 theme = 'archie'
 
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
+
 [params]
 mode = 'light'
 mainSections = ["posts", "projects"]
