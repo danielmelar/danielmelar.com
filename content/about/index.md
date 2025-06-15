@@ -25,8 +25,8 @@ Se quiser mandar alguma mensagem, podes me encontrar aqui:
     - I5-1240P
     - 24gb ram
     - 14"
-- Teclado: Ajazz AK820
-- Mouse: Attack Shark X3
+- Teclado: Logitech Pebble Keys 2 K380s
+- Mouse: Logitech M720 Triathlon
 - Monitor: LG 24MS500 24"
 - Headset: Havit H2015d
 
